@@ -52,3 +52,21 @@
     }
   </style>
 </head>
+
+<body>
+  <form>
+    <h1>Order Your T‑Shirt</h1>
+
+    <!-- Customer Name -->
+    <label for="customer-name">Customer Name</label>
+    <input 
+      type="text" 
+      id="customer-name" 
+      name="customer-name" 
+      required 
+      pattern=".*\S.*\S.*"
+      aria-describedby="nameHelp"
+    >
+    <small id="nameHelp">Name must contain at least two non‑space characters.</small> 
+
+    
