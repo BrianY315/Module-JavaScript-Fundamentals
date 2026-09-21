@@ -12,8 +12,7 @@ console.log(result);
 // For the piece of code above, read the code and then answer the following questions
 
 // a) How many variable declarations are there in this program?
-// There are 7 variable declarations: movieLength, remainingSeconds, totalMinutes, remainingMinutes, totalHours, result, and maybe the console.log has none.
-// (If counting only const declarations, there are 6: movieLength, remainingSeconds, totalMinutes, remainingMinutes, totalHours, result.)
+// There are 6 variable declarations: movieLength, remainingSeconds, totalMinutes, remainingMinutes, totalHours, and result.
 
 // b) How many function calls are there?
 // There is 1 function call: console.log(result)
