@@ -17,7 +17,7 @@ console.log(`The percentage change is ${percentageChange}`);
 // - line 5: priceAfterOneYear.replaceAll(",", "")
 // - line 4: Number(...)
 // - line 5: Number(...)
-// - line 9: console.log(...)
+// - line 10: console.log(...)
 
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
 // The error occurs at line 5 because the syntax is invalid: replaceAll("," "") is missing a comma between the arguments.
